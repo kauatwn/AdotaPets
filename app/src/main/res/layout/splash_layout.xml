@@ -4,26 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".SplashActivity"
+    android:background="#EDDEDC"
     android:gravity="center"
-    android:background="#EDDEDC">
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
 
     <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
-        android:scaleType="centerCrop"
         android:contentDescription="Logo"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/cat" />
 
     <TextView
-        android:layout_gravity="center"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:textSize="40sp"
+        android:shadowRadius="10"
+        android:shadowColor="#90000000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Adota Pets" />
+        android:layout_gravity="center"
+        android:text="Adota Pets"
+        android:textColor="#61281E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
